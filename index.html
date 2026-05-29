@@ -383,6 +383,290 @@
 
 }
 
+
+    /* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+/* LARGE LAPTOP */
+
+@media(max-width:1400px){
+
+  .hero h1{
+    font-size:60px;
+    line-height:1.2;
+  }
+
+}
+
+/* LAPTOP */
+
+@media(max-width:1200px){
+
+  .hero-bg .max-w-5xl{
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+
+  .github-stats{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+/* TABLET */
+
+@media(max-width:992px){
+
+  /* NAVBAR */
+
+  header nav{
+    display:none;
+  }
+
+  /* HERO */
+
+  .hero-bg{
+    padding-top:120px;
+    padding-bottom:80px;
+  }
+
+  .hero-bg h1{
+    font-size:55px !important;
+    line-height:1.2;
+  }
+
+  .hero-bg p{
+    font-size:16px;
+    line-height:1.9;
+  }
+
+  /* ABOUT */
+
+  #about .max-w-7xl{
+    grid-template-columns:1fr;
+  }
+
+  /* SKILLS */
+
+  #skills .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* PROJECTS */
+
+  #projects .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* BLOG */
+
+  #blog .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* CERTIFICATES */
+
+  #certificates .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* CONTACT */
+
+  #contact .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* EXPERIENCE */
+
+  .timeline::before{
+    display:none;
+  }
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+  section{
+    padding-top:90px !important;
+    padding-bottom:90px !important;
+  }
+
+  /* GLOBAL TEXT */
+
+  h1{
+    font-size:42px !important;
+  }
+
+  h2{
+    font-size:34px !important;
+    line-height:1.3;
+  }
+
+  h3{
+    font-size:26px !important;
+  }
+
+  p{
+    font-size:15px !important;
+    line-height:1.9 !important;
+  }
+
+  /* NAVBAR */
+
+  header{
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+  .glow-text{
+    font-size:20px !important;
+  }
+
+  /* HERO */
+
+  .hero-bg{
+    min-height:auto;
+    text-align:center;
+    padding-top:140px;
+    padding-bottom:90px;
+  }
+
+  .hero-bg .flex{
+    flex-direction:column;
+  }
+
+  .hero-bg h1{
+    font-size:42px !important;
+  }
+
+  .hero-bg .tracking-\[0\.3em\]{
+    letter-spacing:0.15em;
+    font-size:18px !important;
+  }
+
+  .hero-bg .flex-wrap{
+    justify-content:center;
+  }
+
+  /* BUTTONS */
+
+  .hero-bg a{
+    width:100%;
+    justify-content:center;
+  }
+
+  .medium-btn,
+  .github-btn{
+    width:100%;
+    justify-content:center;
+  }
+
+  /* ABOUT */
+
+  .section-title::after{
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #about{
+    text-align:center;
+  }
+
+  /* CARDS */
+
+  .glass{
+    border-radius:24px !important;
+  }
+
+  /* PROJECT CARDS */
+
+  .project-card,
+  .blog-card,
+  .certificate-card{
+    padding:28px !important;
+  }
+
+  .blog-title{
+    font-size:26px;
+  }
+
+  .certificate-title{
+    font-size:24px;
+  }
+
+  /* GITHUB */
+
+  .github-stats{
+    grid-template-columns:1fr;
+  }
+
+  .github-number{
+    font-size:36px;
+  }
+
+  /* CONTACT */
+
+  #contact .text-left{
+    text-align:center;
+  }
+
+  /* FOOTER */
+
+  footer{
+    padding:30px 15px;
+    font-size:14px;
+  }
+
+}
+
+/* SMALL MOBILE */
+
+@media(max-width:480px){
+
+  .hero-bg h1{
+    font-size:34px !important;
+  }
+
+  h2{
+    font-size:28px !important;
+  }
+
+  h3{
+    font-size:22px !important;
+  }
+
+  .glass{
+    padding:24px !important;
+  }
+
+  .project-card,
+  .blog-card,
+  .certificate-card{
+    padding:22px !important;
+  }
+
+  .skill{
+    width:100%;
+    text-align:center;
+  }
+
+  .hero-bg .max-w-5xl,
+  .max-w-7xl,
+  .max-w-5xl{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+
+  .blog-footer{
+    flex-direction:column;
+    gap:10px;
+  }
+
+}
+
   </style>
 </head>
 
